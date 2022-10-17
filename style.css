@@ -231,6 +231,7 @@ a {
   line-height: 12.26px;
   letter-spacing: 0.45px;
   font-family: var(--Open_Sans);
+  margin-top: 8px;
 }
 .card h4 {
   width: 73px;
@@ -240,7 +241,7 @@ a {
   line-height: 11.8px;
   color: var(--Very_Dark_Blue);
   font-family: var(--Open_Sans);
-  margin-top: -35px;
+  margin-top: -38px;
 }
 .avatar-wrapper {
   margin-left: 8px;
