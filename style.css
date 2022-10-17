@@ -41,6 +41,7 @@ body {
   flex-direction: column;
 }
 .container {
+  overflow-x: hidden;
   width: 375px;
   padding: 29px 24px;
 }
@@ -317,7 +318,8 @@ footer {
 .footer-logo {
   margin-bottom: 32px;
 }
-.footer-ul, .footer-ul-2 {
+.footer-ul,
+.footer-ul-2 {
   display: block;
 }
 span {
@@ -536,10 +538,10 @@ span {
     height: 365px;
     padding: 100px 80px;
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
   }
   .get-started h2 {
-    margin:0 0 ;
+    margin: 0 0;
     text-align: start;
     width: 360px;
     font-size: 32px;
@@ -547,7 +549,7 @@ span {
     line-height: 48px;
     margin-bottom: 17px;
   }
-  
+
   .get-started p {
     text-align: start;
     width: 525px;
@@ -567,7 +569,7 @@ span {
     border-radius: 3.13px;
   }
   .second-submit {
-   margin-right: 278px;
+    margin-right: 278px;
     width: 200px;
     height: 48px;
     border-radius: 3.13px;
@@ -586,7 +588,7 @@ span {
   .footer-logo {
     width: 130px;
   }
-  .footer-ul, 
+  .footer-ul,
   .footer-ul-2 {
     display: block;
   }
@@ -605,10 +607,11 @@ span {
     font-size: 16px;
     color: #ffffff;
   }
-  .footer-ul li, .footer-ul-2 li {
+  .footer-ul li,
+  .footer-ul-2 li {
     margin-bottom: 16px;
   }
-  .footer-ul-2{
+  .footer-ul-2 {
     margin-top: 80px;
   }
   .social {
