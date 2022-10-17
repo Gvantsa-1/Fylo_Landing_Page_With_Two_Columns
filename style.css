@@ -127,11 +127,15 @@ a {
   display: none;
 }
 .bg-mobile {
+  background-image: url("./images/bg-curve-mobile.svg");
+  background-repeat: no-repeat;
   position: absolute;
-  height: 141px;
+  height: 941px;
   width: 325px;
   z-index: -1;
-  top: 798px;
+  top: 788px;
+  background-size: 530% 100%;
+  background-position-x: center;
 }
 .second-image {
   width: 320px;
@@ -444,13 +448,23 @@ span {
     margin-left: 16px;
   }
   .bg-desktop {
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
     display: block;
+    background-position:center 100%;
+    
     position: absolute;
     height: 940px;
     width: 1340px;
     margin: 0 auto;
     z-index: -1;
-    top: 690px;
+    top: 810px;
+    height: 941px;
+    width: 1325px;
+    z-index: -1;
+    top: 788px;
+    background-size: 540% 100%;
+    
   }
   .bg-mobile {
     display: none;
